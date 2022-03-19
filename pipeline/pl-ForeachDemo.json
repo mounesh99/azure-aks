@@ -24,6 +24,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -107,7 +108,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "ds_input",
+									"referenceName": "ds_output",
 									"type": "DatasetReference"
 								}
 							]
